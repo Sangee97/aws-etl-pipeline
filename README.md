@@ -1,6 +1,8 @@
 # aws-etl-pipeline
 This project will integrate AWS services into the ETL pipeline. Along with extracting, transforming, and loading data from CSV, JSON, and XML formats.Using AWS S3 for storage and retrieval of raw and transformed data and Using AWS RDS (Relational Database Service) to load transformed data.
+
 Extracting process:
+
 Created an s3 bucket in aws and uploaded the source files in bucket using BOTO3 in python
 Downloaded all the files from s3 bucket and extracted all the files, convert them into dataframe
 combining all the extracted files and make it as a single dataframe
